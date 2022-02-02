@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Aathish M</h1>
 <h3 align="center">Software Engineer</h3>
-<img align="center" margin="150px" src="https://github.com/aathish-m/demo/blob/main/pHX.gif" align="middle" height="300px" width="500px">
+<img margin="150px" src="https://github.com/aathish-m/demo/blob/main/pHX.gif" align="middle" height="300px" width="500px">
 
 - 🌱 I’m currently learning **React,Javascript**
 
