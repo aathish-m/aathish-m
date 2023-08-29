@@ -4,11 +4,11 @@
 
 - 🌱 I’m currently learning **React,Javascript**
 
-- 💬 Ask me about **Html, Css, Js, Problem Solving in C++**
+- 💬 Ask me about **React, Javascript, Typescript, Html, CSS, Problem Solving in C++**
 
 - 📫 How to reach me **aathishm2002@gmail.com**
 
-- ⚡ Fun fact **One thing on my bucket list is to earn a 6-digit salary figure.**
+- ⚡ Fun fact **One thing on my bucket list is to earn a 8-digit salary figure.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
