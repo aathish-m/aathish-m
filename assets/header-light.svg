@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-label="Aathish M — Software engineer. Curiosity into code. Ideas into interfaces.">
+<title>Aathish M — Software engineer. Curiosity into code. Ideas into interfaces.</title><defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#D8E2EA" stroke-width="0.6"/></pattern><linearGradient id="accent"><stop stop-color="#087F62"/><stop offset="1" stop-color="#739CFF"/></linearGradient></defs>
+<style>@keyframes drift{to{stroke-dashoffset:-160}}@keyframes pulse{50%{opacity:.25}}.orbit{animation:drift 16s linear infinite}.pulse{animation:pulse 3s ease-in-out infinite}@media(prefers-reduced-motion:reduce){.orbit,.pulse{animation:none}}</style>
+<rect width="960" height="360" rx="24" fill="#F6F8FA"/><rect width="960" height="360" rx="24" fill="url(#grid)" opacity=".5"/>
+<rect x="1" y="1" width="958" height="358" rx="23" fill="none" stroke="#D8E2EA"/>
+<rect x="40" y="42" width="4" height="18" rx="2" fill="#087F62"/>
+<text x="56" y="56" fill="#526579" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2">AATHISH M  /  SOFTWARE ENGINEER</text>
+<text x="40" y="134" fill="#172B3A" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" >Curiosity into code.</text>
+<text x="40" y="192" fill="#087F62" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" >Ideas into interfaces.</text>
+<text x="42" y="236" fill="#526579" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" >React · TypeScript · Thoughtful user experiences</text>
+<path d="M42 274H588" stroke="#D8E2EA"/>
+<text x="42" y="310" fill="#526579" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">PALANI, INDIA</text>
+<text x="300" y="310" fill="#526579" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">EXPLORE. BUILD. KEEP LEARNING.</text>
+<circle cx="793" cy="172" r="111" fill="#FFFFFF" stroke="#D8E2EA"/>
+<circle class="orbit" cx="793" cy="172" r="111" fill="none" stroke="url(#accent)" stroke-width="2" stroke-dasharray="24 16"/>
+<circle cx="793" cy="172" r="84" fill="none" stroke="#D8E2EA"/>
+<path d="M763 149l-25 23 25 23m59-46 25 23-25 23m-20-63-20 79" fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="pulse" cx="793" cy="61" r="6" fill="#087F62"/>
+<text x="793" y="322" fill="#526579" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1">ALWAYS A WORK IN PROGRESS</text></svg>

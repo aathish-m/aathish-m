@@ -1,0 +1,34 @@
+name: Refresh profile widgets
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build_profile.py
+      - .github/workflows/profile.yml
+permissions:
+  contents: write
+concurrency:
+  group: profile-widgets
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Generate profile assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/build_profile.py
+      - name: Commit updated assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh profile widgets"
+            git push
+          fi
