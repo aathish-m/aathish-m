@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="270" viewBox="0 0 600 270" role="img" aria-label="01 Remind Me — A TypeScript web project built with Next.js, with Prisma, Clerk and a component-based UI."><title>01 Remind Me — A TypeScript web project built with Next.js, with Prisma, Clerk and a component-based UI.</title><style>
+    .num{font:800 56px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;letter-spacing:-2px}
+    .ttl{font:700 28px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#0f172a;letter-spacing:-.5px}
+    .dsc{font:400 16px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#526075}
+    .tg{font:600 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#0f172a}
+    .cta{font:700 15px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#5b3df5}
+    .arrow{animation:nudge 1.6s ease-in-out infinite}
+    @keyframes nudge{50%{transform:translateX(6px)}}
+    .card{}
+    @keyframes in{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+    .border{animation:trace 6s linear infinite}
+    @keyframes trace{to{stroke-dashoffset:-1000}}
+    .swing{transform-origin:0 -34px;animation:swing 2.8s ease-in-out infinite}
+    @keyframes swing{0%,40%,100%{transform:rotate(0)}8%{transform:rotate(14deg)}16%{transform:rotate(-12deg)}24%{transform:rotate(8deg)}32%{transform:rotate(-4deg)}}
+    .ping{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
+    @keyframes ping{from{transform:scale(1);opacity:.7}to{transform:scale(2.6);opacity:0}}
+    .day{opacity:0;animation:day 4.2s ease-in-out infinite}
+    @keyframes day{0%,100%{opacity:0}6%{opacity:.9}20%{opacity:0}}
+    .draw{stroke-dasharray:100;animation:draw 3.2s ease-in-out infinite}
+    @keyframes draw{0%,45%{stroke-dashoffset:0}65%{stroke-dashoffset:-100}65.1%{stroke-dashoffset:100}100%{stroke-dashoffset:0}}
+    .b1,.b2,.b3{transform-box:fill-box;transform-origin:center;animation:bub 4.5s ease-out infinite both}
+    .b2{animation-delay:.6s} .b3{animation-delay:1.2s}
+    @keyframes bub{0%,70%{opacity:1;transform:none}80%,88%{opacity:0;transform:scale(.6)}100%{opacity:1;transform:none}}
+    .typing{animation:typ 1s ease-in-out infinite}
+    @keyframes typ{50%{transform:translateY(-3px)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#5b3df5"/><stop offset=".5" stop-color="#0891b2"/><stop offset="1" stop-color="#db2777"/></linearGradient>
+      <linearGradient id="ng" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#5b3df5" stop-opacity=".9"/><stop offset="1" stop-color="#0891b2" stop-opacity=".25"/></linearGradient>
+      <radialGradient id="corner" cx="1" cy="0" r="1"><stop offset="0" stop-color="#5b3df5" stop-opacity=".16"/><stop offset=".6" stop-color="#5b3df5" stop-opacity="0"/></radialGradient>
+    </defs>
+    <g class="card">
+      <rect x="1" y="1" width="598" height="268" rx="20" fill="#ffffff" stroke="#e2e8f0"/>
+      <rect x="1" y="1" width="598" height="268" rx="20" fill="url(#corner)"/>
+      <rect class="border" x="1" y="1" width="598" height="268" rx="20" fill="none" stroke="url(#bg)" stroke-width="2" stroke-dasharray="160 340" pathLength="1000"/>
+      <text class="num" x="30" y="72" fill="url(#ng)">01</text>
+      <text class="ttl" x="32" y="108">Remind Me</text>
+      <text class="dsc" x="32" y="140">A TypeScript web project built with Next.js,</text><text class="dsc" x="32" y="164">with Prisma, Clerk and a component-based UI.</text>
+      <rect x="32" y="182" width="108" height="28" rx="8" fill="#f6f8fb" stroke="#e2e8f0"/><text class="tg" x="45" y="201">TypeScript</text><rect x="148.0" y="182" width="83" height="28" rx="8" fill="#f6f8fb" stroke="#e2e8f0"/><text class="tg" x="161.0" y="201">Next.js</text><rect x="239.39999999999998" y="182" width="75" height="28" rx="8" fill="#f6f8fb" stroke="#e2e8f0"/><text class="tg" x="252.39999999999998" y="201">Prisma</text>
+      <text class="cta" x="32" y="244">Explore the repository</text>
+      <g class="arrow"><text class="cta" x="214" y="244">→</text></g>
+      
+        <g transform="translate(510 88)">
+          <g class="swing"><path d="M0 -34c-15 0-24 11-24 26v16l-7 10h62l-7-10V-8C24-23 15-34 0-34z" fill="none" stroke="#5b3df5" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M-8 22a8 8 0 0 0 16 0" fill="none" stroke="#5b3df5" stroke-width="3" stroke-linecap="round"/></g>
+          <circle class="ping" cx="20" cy="-28" r="7" fill="#db2777"/><circle cx="20" cy="-28" r="7" fill="#db2777"/>
+        </g>
+    </g></svg>

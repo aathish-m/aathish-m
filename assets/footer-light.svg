@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Have an interesting idea? Let&#x27;s connect."><title>Have an interesting idea? Let&#x27;s connect.</title><style>
+    .w{animation:wave 9s linear infinite} .w2{animation-duration:13s;animation-direction:reverse} .w3{animation-duration:17s}
+    @keyframes wave{to{transform:translateX(240px)}}
+    .big{font:800 34px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;letter-spacing:-1px}
+    .sub{font:500 17px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#526075}
+    .hand{transform-box:fill-box;transform-origin:70% 80%;animation:hand 2.4s ease-in-out infinite}
+    @keyframes hand{0%,60%,100%{transform:rotate(0)}10%,30%{transform:rotate(16deg)}20%,40%{transform:rotate(-8deg)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+    <defs>
+      <linearGradient id="fg" x1="0" y1="0" x2="600" y2="0" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
+        <stop offset="0" stop-color="#5b3df5"/><stop offset=".5" stop-color="#0891b2"/><stop offset="1" stop-color="#5b3df5"/>
+        <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="600 0" dur="6s" repeatCount="indefinite"/></linearGradient>
+      <clipPath id="fc"><rect width="1200" height="220" rx="28"/></clipPath>
+    </defs>
+    <g clip-path="url(#fc)">
+      <rect width="1200" height="220" fill="#f6f8fb"/>
+      <path class="w w3" d="M-480 150 q60.0 -10 120.0 0 t120.0 0 q60.0 -10 120.0 0 t120.0 0 q60.0 -10 120.0 0 t120.0 0 q60.0 -10 120.0 0 t120.0 0 q60.0 -10 120.0 0 t120.0 0 q60.0 -10 120.0 0 t120.0 0 q60.0 -10 120.0 0 t120.0 0 q60.0 -10 120.0 0 t120.0 0 q60.0 -10 120.0 0 t120.0 0 V220 H-480 Z" fill="#db2777" fill-opacity=".10"/>
+      <path class="w w2" d="M-420 165 q60.0 -14 120.0 0 t120.0 0 q60.0 -14 120.0 0 t120.0 0 q60.0 -14 120.0 0 t120.0 0 q60.0 -14 120.0 0 t120.0 0 q60.0 -14 120.0 0 t120.0 0 q60.0 -14 120.0 0 t120.0 0 q60.0 -14 120.0 0 t120.0 0 q60.0 -14 120.0 0 t120.0 0 q60.0 -14 120.0 0 t120.0 0 V220 H-480 Z" fill="#0891b2" fill-opacity=".13"/>
+      <path class="w" d="M-360 182 q60.0 -12 120.0 0 t120.0 0 q60.0 -12 120.0 0 t120.0 0 q60.0 -12 120.0 0 t120.0 0 q60.0 -12 120.0 0 t120.0 0 q60.0 -12 120.0 0 t120.0 0 q60.0 -12 120.0 0 t120.0 0 q60.0 -12 120.0 0 t120.0 0 q60.0 -12 120.0 0 t120.0 0 q60.0 -12 120.0 0 t120.0 0 V220 H-480 Z" fill="#5b3df5" fill-opacity=".18"/>
+    </g>
+    <rect x=".5" y=".5" width="1199" height="219" rx="28" fill="none" stroke="#e2e8f0"/>
+    <text class="big" x="600.0" y="86" text-anchor="middle" fill="url(#fg)">Have an interesting idea? Let's connect.</text>
+    <text class="sub" x="600.0" y="122" text-anchor="middle">Thanks for stopping by — I'm always happy to talk frontend, UI details and problem solving.</text></svg>

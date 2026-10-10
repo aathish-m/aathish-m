@@ -57,7 +57,6 @@ for theme in ('dark', 'light'):
 <path d="M763 149l-25 23 25 23m59-46 25 23-25 23m-20-63-20 79" fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 <circle class="pulse" cx="793" cy="61" r="6" fill="{mint}"/>
 { text(793,322,'ALWAYS A WORK IN PROGRESS',10,muted,700,'text-anchor="middle" letter-spacing="1"') }'''
-    (ROOT / f'assets/header-{theme}.svg').write_text(svg(header,360,'Aathish M — Software engineer. Curiosity into code. Ideas into interfaces.'))
     stats = f'<rect x="1" y="1" width="958" height="228" rx="20" fill="{bg}" stroke="{line}"/>'
     stats += text(32,36,'THE PUBLIC WORKBENCH',12,mint,700,'letter-spacing="2"')
     for i,(label,value) in enumerate([('PUBLIC REPOSITORIES',user['public_repos']),('ORIGINAL REPOSITORIES',len(originals)),('STARS ON ORIGINALS',sum(r['stargazers_count'] for r in originals)),('FOLLOWERS',user['followers'])]):
@@ -77,5 +76,4 @@ for theme in ('dark', 'light'):
             x,y=20+col*186,20+row*64
             stack += f'<rect x="{x}" y="{y}" width="176" height="48" rx="10" fill="{panel}" stroke="{line}"/>'
             stack += text(x+88,y+30,item,16,mint if row==0 else fg,600,'text-anchor="middle"')
-    (ROOT / f'assets/stack-{theme}.svg').write_text(svg(stack,150,'Toolkit: React, TypeScript, JavaScript, Next.js, Tailwind CSS, HTML and CSS, C++, Git, Figma, Firebase.'))
-print(f'Generated six SVG assets from {len(repos)} public repositories.')
+print(f'Refreshed two statistics SVG assets from {len(repos)} public repositories.')

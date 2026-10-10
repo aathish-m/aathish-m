@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="270" viewBox="0 0 600 270" role="img" aria-label="04 AlphaZ — A public discussion forum project — exploring the web as a place for people and conversation."><title>04 AlphaZ — A public discussion forum project — exploring the web as a place for people and conversation.</title><style>
+    .num{font:800 56px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;letter-spacing:-2px}
+    .ttl{font:700 28px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#e8eef6;letter-spacing:-.5px}
+    .dsc{font:400 16px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#93a1b5}
+    .tg{font:600 13px ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;fill:#e8eef6}
+    .cta{font:700 15px 'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#8b6cff}
+    .arrow{animation:nudge 1.6s ease-in-out infinite}
+    @keyframes nudge{50%{transform:translateX(6px)}}
+    .card{}
+    @keyframes in{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+    .border{animation:trace 6s linear infinite}
+    @keyframes trace{to{stroke-dashoffset:-1000}}
+    .swing{transform-origin:0 -34px;animation:swing 2.8s ease-in-out infinite}
+    @keyframes swing{0%,40%,100%{transform:rotate(0)}8%{transform:rotate(14deg)}16%{transform:rotate(-12deg)}24%{transform:rotate(8deg)}32%{transform:rotate(-4deg)}}
+    .ping{transform-box:fill-box;transform-origin:center;animation:ping 2s ease-out infinite}
+    @keyframes ping{from{transform:scale(1);opacity:.7}to{transform:scale(2.6);opacity:0}}
+    .day{opacity:0;animation:day 4.2s ease-in-out infinite}
+    @keyframes day{0%,100%{opacity:0}6%{opacity:.9}20%{opacity:0}}
+    .draw{stroke-dasharray:100;animation:draw 3.2s ease-in-out infinite}
+    @keyframes draw{0%,45%{stroke-dashoffset:0}65%{stroke-dashoffset:-100}65.1%{stroke-dashoffset:100}100%{stroke-dashoffset:0}}
+    .b1,.b2,.b3{transform-box:fill-box;transform-origin:center;animation:bub 4.5s ease-out infinite both}
+    .b2{animation-delay:.6s} .b3{animation-delay:1.2s}
+    @keyframes bub{0%,70%{opacity:1;transform:none}80%,88%{opacity:0;transform:scale(.6)}100%{opacity:1;transform:none}}
+    .typing{animation:typ 1s ease-in-out infinite}
+    @keyframes typ{50%{transform:translateY(-3px)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#8b6cff"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#ff5fa2"/></linearGradient>
+      <linearGradient id="ng" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#8b6cff" stop-opacity=".9"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".25"/></linearGradient>
+      <radialGradient id="corner" cx="1" cy="0" r="1"><stop offset="0" stop-color="#8b6cff" stop-opacity=".16"/><stop offset=".6" stop-color="#8b6cff" stop-opacity="0"/></radialGradient>
+    </defs>
+    <g class="card">
+      <rect x="1" y="1" width="598" height="268" rx="20" fill="#0f1521" stroke="#232d40"/>
+      <rect x="1" y="1" width="598" height="268" rx="20" fill="url(#corner)"/>
+      <rect class="border" x="1" y="1" width="598" height="268" rx="20" fill="none" stroke="url(#bg)" stroke-width="2" stroke-dasharray="160 340" pathLength="1000"/>
+      <text class="num" x="30" y="72" fill="url(#ng)">04</text>
+      <text class="ttl" x="32" y="108">AlphaZ</text>
+      <text class="dsc" x="32" y="140">A public discussion forum project — exploring</text><text class="dsc" x="32" y="164">the web as a place for people and conversation.</text>
+      <rect x="32" y="182" width="100" height="28" rx="8" fill="#151c2a" stroke="#232d40"/><text class="tg" x="45" y="201">Community</text><rect x="139.8" y="182" width="67" height="28" rx="8" fill="#151c2a" stroke="#232d40"/><text class="tg" x="152.8" y="201">Forum</text>
+      <text class="cta" x="32" y="244">Explore the repository</text>
+      <g class="arrow"><text class="cta" x="214" y="244">→</text></g>
+      
+    <g transform="translate(510 88)">
+      <g class="b1"><rect x="-46" y="-36" width="60" height="28" rx="12" fill="#8b6cff" fill-opacity=".18" stroke="#8b6cff" stroke-width="2"/>
+        <circle cx="-30" cy="-22" r="3" fill="#8b6cff"/><circle cx="-16" cy="-22" r="3" fill="#8b6cff"/><circle cx="-2" cy="-22" r="3" fill="#8b6cff"/></g>
+      <g class="b2"><rect x="-10" y="-2" width="58" height="26" rx="12" fill="#22d3ee" fill-opacity=".18" stroke="#22d3ee" stroke-width="2"/>
+        <path d="M2 11h34" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/></g>
+      <g class="b3"><rect x="-40" y="30" width="44" height="22" rx="11" fill="#ff5fa2" fill-opacity=".18" stroke="#ff5fa2" stroke-width="2"/>
+        <circle class="typing" cx="-28" cy="41" r="2.6" fill="#ff5fa2"/><circle class="typing" style="animation-delay:.15s" cx="-18" cy="41" r="2.6" fill="#ff5fa2"/><circle class="typing" style="animation-delay:.3s" cx="-8" cy="41" r="2.6" fill="#ff5fa2"/></g>
+    </g>
+    </g></svg>
